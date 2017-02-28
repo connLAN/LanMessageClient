@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Emoticons>
+  <Emoticon Code="emot smile" Description="Smile" ImageKey="img_emot_smile">
+    <Text>:)</Text>
+  </Emoticon>
+  <Emoticon Code="emot grin" Description="Grin" ImageKey="img_emot_biggrin">
+    <Text>:D</Text>
+  </Emoticon>
+  <Emoticon Code="emot wink" Description="Wink" ImageKey="img_emot_wink">
+    <Text>;)</Text>
+  </Emoticon>
+  <Emoticon Code="emot surprised" Description="Surprised" ImageKey="img_emot_ohmy">
+    <Text>:O</Text>
+    <Text>:o</Text>
+  </Emoticon>
+  <Emoticon Code="emot tongue" Description="Tongue" ImageKey="img_emot_tongue">
+    <Text>:P</Text>
+    <Text>:p</Text>
+  </Emoticon>
+  <Emoticon Code="emot cool" Description="Cool" ImageKey="img_emot_cool">
+    <Text>B)</Text>
+    <Text>8)</Text>
+  </Emoticon>
+  <Emoticon Code="emot angry" Description="Angry" ImageKey="img_emot_angry">
+    <Text>:X</Text>
+    <Text>:x</Text>
+    <Text>:@</Text>
+  </Emoticon>
+  <Emoticon Code="emot confused" Description="Confused" ImageKey="img_emot_blink">
+    <Text>:S</Text>
+    <Text>:s</Text>
+  </Emoticon>
+  <Emoticon Code="emot sad" Description="Sad" ImageKey="img_emot_sad">
+    <Text>:(</Text>
+  </Emoticon>
+  <Emoticon Code="emot huh" Description="Huh" ImageKey="img_emot_huh">
+  </Emoticon>
+  <Emoticon Code="emot laugh" Description="Laugh" ImageKey="img_emot_laugh">
+  </Emoticon>
+  <Emoticon Code="emot bland" Description="Mellow" ImageKey="img_emot_mellow">
+    <Text>:|</Text>
+  </Emoticon>
+  <Emoticon Code="emot unsure" Description="Unsure" ImageKey="img_emot_unsure">
+  </Emoticon>
+  <Emoticon Code="emot sarcasm" Description="Sarcasm" ImageKey="img_emot_dry">
+    <Text>:/</Text>
+  </Emoticon>
+  <Emoticon Code="emot rolleyes" Description="Roll Eyes" ImageKey="img_emot_rolleyes">
+  </Emoticon>
+</Emoticons>

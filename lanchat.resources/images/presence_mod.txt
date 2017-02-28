@@ -1,0 +1,23 @@
+base image is "available". all modifications to be done on the 48x48 source and then resized to 20x20.
+
+available
+h 0
+l 0
+s 0
+
+away
+h 57
+l 5
+s 10
+
+busy
+h 50
+l 0
+s 0
+
+donotdisturb
+h 45
+l 0
+s 0
+
+"offline" image resized directly from 48x48 source.

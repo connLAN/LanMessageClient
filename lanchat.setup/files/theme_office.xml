@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- "Office" theme definition file -->
+<!-- Theme should have a name, else it will not show up in application -->
+<Theme name="Office">
+  <!-- This section describes the main window -->
+  <Main>
+    <BackColor>230, 231, 232</BackColor>
+    <TextColor>91, 91, 91</TextColor>
+    <!-- The top left panel where local user info is displayed -->
+    <PresencePane>
+      <BackColor>241, 243, 244</BackColor>
+      <BorderColor>198, 202, 205</BorderColor>
+      <TextColor>91, 91, 91</TextColor>
+      <HeaderColor>74, 161, 48</HeaderColor>
+      <HeaderTextColor>237, 243, 246</HeaderTextColor>
+      <GradientMax>0.06</GradientMax>
+      <GradientMin>0.025</GradientMin>
+    </PresencePane>
+    <!-- The left side panel where online users are listed -->
+    <ContactList>
+      <BackColor>255, 255, 255</BackColor>
+      <HeaderColor>230, 230, 230</HeaderColor>
+      <SelectedColor>208, 225, 249</SelectedColor>
+      <HighlightColor>231, 240, 252</HighlightColor>
+      <TextColor>51, 51, 51</TextColor>
+      <GradientMax>0.0</GradientMax>
+      <GradientMin>0.0</GradientMin>
+    </ContactList>
+    <!-- The right side panel where conversations are displayed -->
+    <ChatPane>
+      <BackColor>255, 255, 255</BackColor>
+      <DefaultTabColor>230, 231, 232</DefaultTabColor>
+      <DefaultBorderColor>198, 202, 205</DefaultBorderColor>
+      <DefaultTextColor>91, 91, 91</DefaultTextColor>
+      <SelectedTabColor>255, 255, 255</SelectedTabColor>
+      <SelectedBorderColor>182, 186, 191</SelectedBorderColor>
+      <SelectedTextColor>108, 114, 121</SelectedTextColor>
+      <DisabledTabColor>232, 234, 236</DisabledTabColor>
+      <DisabledBorderColor>177, 181, 186</DisabledBorderColor>
+      <DisabledTextColor>92, 92, 92</DisabledTextColor>
+      <GradientMax>0.0</GradientMax>
+      <GradientMin>0.0</GradientMin>
+    </ChatPane>
+  </Main>
+  <!-- This section describes the Histoy Viewer -->
+  <History>
+    <BackColor>230, 231, 232</BackColor>
+    <TextColor>91, 91, 91</TextColor>
+    <!-- The left side panel where message list is displayed -->
+    <MessageList>
+      <BackColor>255, 255, 255</BackColor>
+      <HeaderColor>230, 230, 230</HeaderColor>
+      <SelectedColor>208, 225, 249</SelectedColor>
+      <HighlightColor>231, 240, 252</HighlightColor>
+      <TextColor>51, 51, 51</TextColor>
+      <GradientMax>0.0</GradientMax>
+      <GradientMin>0.0</GradientMin>
+    </MessageList>
+  </History>
+  <!-- This section describes the File Transfer dialog -->
+  <FileTransfer>
+    <BackColor>230, 231, 232</BackColor>
+    <TextColor>91, 91, 91</TextColor>
+    <!-- The center panel where file transfers are displayed -->
+    <FileList>
+      <BackColor>255, 255, 255</BackColor>
+      <SelectedColor>208, 225, 249</SelectedColor>
+      <HighlightColor>231, 240, 252</HighlightColor>
+      <TextColor>51, 51, 51</TextColor>
+      <GradientMax>0.0</GradientMax>
+      <GradientMin>0.0</GradientMin>
+    </FileList>
+  </FileTransfer>
+  <!-- This section describes the Broadcast Message dialogs -->
+  <Broadcast>
+    <BackColor>230, 231, 232</BackColor>
+    <TextColor>91, 91, 91</TextColor>
+    <!-- The right side panel where online users are listed -->
+    <ContactList>
+      <BackColor>255, 255, 255</BackColor>
+      <HeaderColor>230, 230, 230</HeaderColor>
+      <SelectedColor>208, 225, 249</SelectedColor>
+      <HighlightColor>231, 240, 252</HighlightColor>
+      <TextColor>51, 51, 51</TextColor>
+      <GradientMax>0.0</GradientMax>
+      <GradientMin>0.0</GradientMin>
+    </ContactList>
+  </Broadcast>
+</Theme>

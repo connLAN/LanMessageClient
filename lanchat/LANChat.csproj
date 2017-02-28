@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17430F7F-F432-4CA9-87B1-24C95F13E5D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LANChat</RootNamespace>
+    <AssemblyName>lanmsngr</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Deploy\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>1</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>\\VINU\Deploy\</UpdateUrl>
+    <ProductName>LAN Messenger</ProductName>
+    <PublisherName>LAN Group</PublisherName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.2.5.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <DebugSymbols>false</DebugSymbols>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Messenger.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9ECB1187471B2334B94E78584E82B592884A33C7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LANChat_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="lanui">
+      <HintPath>..\..\CustomControls\CustomControls\bin\Release\lanui.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutDialog.Designer.cs">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityMonitor.cs" />
+    <Compile Include="AppInfo.cs" />
+    <Compile Include="BroadcastSender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BroadcastSender.Designer.cs">
+      <DependentUpon>BroadcastSender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BroadcastViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BroadcastViewer.Designer.cs">
+      <DependentUpon>BroadcastViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChatControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChatControl.Designer.cs">
+      <DependentUpon>ChatControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChatForm.Designer.cs">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Definitions.cs" />
+    <Compile Include="ErrorHandler.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="FileTransferControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FileTransferControl.Designer.cs">
+      <DependentUpon>FileTransferControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileTransferDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileTransferDialog.Designer.cs">
+      <DependentUpon>FileTransferDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History.cs" />
+    <Compile Include="HistoryViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryViewer.Designer.cs">
+      <DependentUpon>HistoryViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputBox.Designer.cs">
+      <DependentUpon>InputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormDefs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormNet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="SettingsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsDialog.Designer.cs">
+      <DependentUpon>SettingsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsProvider.cs" />
+    <Compile Include="SoundPlayer.cs" />
+    <Compile Include="Theme.cs" />
+    <Compile Include="UserStatus.cs" />
+    <EmbeddedResource Include="AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BroadcastSender.resx">
+      <DependentUpon>BroadcastSender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BroadcastViewer.resx">
+      <DependentUpon>BroadcastViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatControl.resx">
+      <DependentUpon>ChatControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatForm.resx">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileTransferControl.resx">
+      <DependentUpon>FileTransferControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileTransferDialog.resx">
+      <DependentUpon>FileTransferDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryViewer.resx">
+      <DependentUpon>HistoryViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputBox.resx">
+      <DependentUpon>InputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingsDialog.resx">
+      <DependentUpon>SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Messenger.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LANChat.Resources\LANChat.Resources.csproj">
+      <Project>{FF087348-EF32-418E-8445-6CB26CF997F7}</Project>
+      <Name>LANChat.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSendMessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\SendInstantMessage_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="done" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sounds\done.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HistoryIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\history.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="il_Blank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Blank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="il_Font" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\FontDialogHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="il_PopIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\PopIn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="il_PopOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\PopOut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="il_Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\saveHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="il_SendFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\AttachFileHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="il_Smiley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\SmileyHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lblInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Arrow_Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuMBCopy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\CopyHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuMBCut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\CutHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuMBDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\DeleteHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuMBPaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\PasteHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuMBUndo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Edit_UndoHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuNotifyAbout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Info_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuNotifyExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\close_red_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuNotifyFileTransfers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\FileTransfers_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuNotifyHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\History_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuNotifyOptions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Tools_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuNotifyShow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Messenger_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newalert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sounds\newalert.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="newmessage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sounds\newmessage.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="online" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\sounds\online.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picBoxLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Messenger_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="theme_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\theme_default.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="img_emot_angry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_angry.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_biggrin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_biggrin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_blink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_blink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_cool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_cool.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_dry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_dry.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_huh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_huh.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_laugh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_laugh.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_mellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_mellow.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_ohmy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_ohmy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_rolleyes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_rolleyes.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_sad.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_smile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_smile.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_tongue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_tongue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_unsure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_unsure.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot_wink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies\img_emot_wink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_angry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_angry.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_beer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_beer.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_brokenheart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_brokenheart.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_bulb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_bulb.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_cake.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_call" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_call.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_camera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_camera.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_cat.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_coffee.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_confused" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_confused.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_cool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_cool.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_cry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_cry.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_dog.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_embarrassed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_embarrassed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_gift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_gift.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_grin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_grin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_halo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_halo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_heart.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_hug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_hug.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_huh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_huh.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_lips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_lips.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_mail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_mail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_messenger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_messenger.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_moon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_moon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_movie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_movie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_music" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_music.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_rose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_rose.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_sad.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_smile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_smile.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_star.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_surprised" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_surprised.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_thumbsup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_thumbsup.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_time.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_tongue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_tongue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_wink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_wink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_emot2_witheredrose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\smilies_2\img_emot2_witheredrose.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnuMBRedo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Edit_RedoHS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lblTip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Tip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\FileIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emoticon_defs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\emoticon_defs.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="emoticon_fallback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\emoticon_fallback.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="status_defs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\files\status_defs.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="img_chat_available" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\img_chat_available.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_chat_away" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\img_chat_away.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_chat_busy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\img_chat_busy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_chat_donotdisturb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\img_chat_donotdisturb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_chat_offline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\img_chat_offline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_status_available" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\img_status_available.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_status_away" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\img_status_away.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_status_busy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\img_status_busy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_status_donotdisturb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\img_status_donotdisturb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_status_offline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\img_status_offline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BroadcastIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\Broadcast.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

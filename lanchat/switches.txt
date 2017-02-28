@@ -1,0 +1,20 @@
+Usage:		lanmsngr [switches]
+		All switches are optional.
+
+/sync - Synchronizes application settings and their external dependencies.
+/inst - Returns a value indicating whether an instance is already running.
+/term - Closes an instance which is already running.
+/debug - Start in debug mode. Has no effect if already running.
+/port:<number> - The port to use. Must be a valid port or default will be used.
+/nohistory - Deletes existing history.
+/noconfig - Resets preferences to default values.
+/quit - Closes once the command line parameters are processed.
+/? - Display this help.
+
+Example:
+
+Start in debug mode using port 10000:	lanmsngr /debug /port:10000
+
+Some command line switches are mutually exclusive. If multiple switches are
+specified, they will take precedence in the order given above.
+(c) LAN Media. All rights reserved.

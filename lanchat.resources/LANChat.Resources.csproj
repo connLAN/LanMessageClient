@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF087348-EF32-418E-8445-6CB26CF997F7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LANChat.Resources</RootNamespace>
+    <AssemblyName>lanres</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="files\theme_default.xml" />
+    <None Include="icons\history.ico" />
+    <None Include="images\AttachFileHS.png" />
+    <None Include="images\SmileyHS.png" />
+    <None Include="images\saveHS.png" />
+    <None Include="images\PopOut.png" />
+    <None Include="images\FontDialogHS.png" />
+    <None Include="images\PopIn.png" />
+    <None Include="images\Edit_UndoHS.png" />
+    <None Include="images\PasteHS.png" />
+    <None Include="images\DeleteHS.png" />
+    <None Include="images\CutHS.png" />
+    <None Include="images\CopyHS.png" />
+    <None Include="images\SendInstantMessage_32x32.png" />
+    <None Include="images\Arrow_Left.png" />
+    <None Include="images\Send.png" />
+    <None Include="images\Receive.png" />
+    <None Include="images\Blank.png" />
+    <None Include="images\Bubble_Yellow.png" />
+    <None Include="images\Online_Yellow.png" />
+    <None Include="images\Bubble_Red.png" />
+    <None Include="images\Online_Red.png" />
+    <None Include="images\Bubble_Blue.png" />
+    <None Include="images\Online_Blue.png" />
+    <None Include="images\Messenger_Logo.png" />
+    <None Include="icons\Messenger.ico" />
+    <None Include="files\emoticon_defs_old.xml" />
+    <None Include="files\emoticon_fallback.xml" />
+    <None Include="files\emoticon_defs.xml" />
+    <None Include="images\Bubble_Gray.png" />
+    <None Include="files\status_defs.xml" />
+    <None Include="icons\Broadcast.ico" />
+    <Content Include="images\Close_Red_16x16.png" />
+    <None Include="images\Users.png" />
+    <None Include="images\History_16x16.png" />
+    <None Include="images\FileTransfers_16x16.png" />
+    <None Include="images\Tools_16x16.png" />
+    <None Include="images\Messenger_16x16.png" />
+    <None Include="images\Info_16x16.png" />
+    <None Include="images\smilies\img_emot_angry.gif" />
+    <None Include="images\smilies\img_emot_biggrin.gif" />
+    <None Include="images\smilies\img_emot_blink.gif" />
+    <None Include="images\smilies\img_emot_cool.gif" />
+    <None Include="images\smilies\img_emot_dry.gif" />
+    <None Include="images\smilies\img_emot_huh.gif" />
+    <None Include="images\smilies\img_emot_laugh.gif" />
+    <None Include="images\smilies\img_emot_mellow.gif" />
+    <None Include="images\smilies\img_emot_ohmy.gif" />
+    <None Include="images\smilies\img_emot_rolleyes.gif" />
+    <None Include="images\smilies\img_emot_sad.gif" />
+    <None Include="images\smilies\img_emot_smile.gif" />
+    <None Include="images\smilies\img_emot_tongue.gif" />
+    <None Include="images\smilies\img_emot_unsure.gif" />
+    <None Include="images\smilies\img_emot_wink.gif" />
+    <None Include="images\smilies_2\img_emot2_witheredrose.gif" />
+    <None Include="images\smilies_2\img_emot2_angry.gif" />
+    <None Include="images\smilies_2\img_emot2_beer.gif" />
+    <None Include="images\smilies_2\img_emot2_brokenheart.gif" />
+    <None Include="images\smilies_2\img_emot2_bulb.gif" />
+    <None Include="images\smilies_2\img_emot2_cake.gif" />
+    <None Include="images\smilies_2\img_emot2_call.gif" />
+    <None Include="images\smilies_2\img_emot2_camera.gif" />
+    <None Include="images\smilies_2\img_emot2_cat.gif" />
+    <None Include="images\smilies_2\img_emot2_coffee.gif" />
+    <None Include="images\smilies_2\img_emot2_confused.gif" />
+    <None Include="images\smilies_2\img_emot2_cool.gif" />
+    <None Include="images\smilies_2\img_emot2_cry.gif" />
+    <None Include="images\smilies_2\img_emot2_dog.gif" />
+    <None Include="images\smilies_2\img_emot2_embarrassed.gif" />
+    <None Include="images\smilies_2\img_emot2_gift.gif" />
+    <None Include="images\smilies_2\img_emot2_grin.gif" />
+    <None Include="images\smilies_2\img_emot2_halo.gif" />
+    <None Include="images\smilies_2\img_emot2_heart.gif" />
+    <None Include="images\smilies_2\img_emot2_hug.gif" />
+    <None Include="images\smilies_2\img_emot2_huh.gif" />
+    <None Include="images\smilies_2\img_emot2_lips.gif" />
+    <None Include="images\smilies_2\img_emot2_mail.gif" />
+    <None Include="images\smilies_2\img_emot2_messenger.gif" />
+    <None Include="images\smilies_2\img_emot2_moon.gif" />
+    <None Include="images\smilies_2\img_emot2_movie.gif" />
+    <None Include="images\smilies_2\img_emot2_music.gif" />
+    <None Include="images\smilies_2\img_emot2_rose.gif" />
+    <None Include="images\smilies_2\img_emot2_sad.gif" />
+    <None Include="images\smilies_2\img_emot2_smile.gif" />
+    <None Include="images\smilies_2\img_emot2_star.gif" />
+    <None Include="images\smilies_2\img_emot2_surprised.gif" />
+    <None Include="images\smilies_2\img_emot2_thumbsup.gif" />
+    <None Include="images\smilies_2\img_emot2_time.gif" />
+    <None Include="images\smilies_2\img_emot2_tongue.gif" />
+    <None Include="images\smilies_2\img_emot2_wink.gif" />
+    <None Include="images\Edit_RedoHS.png" />
+    <None Include="images\Tip.png" />
+    <None Include="images\Offline_Gray.png" />
+    <None Include="images\FileIcon.png" />
+    <None Include="images\img_chat_available.png" />
+    <None Include="images\img_chat_away.png" />
+    <None Include="images\img_chat_busy.png" />
+    <None Include="images\img_chat_donotdisturb.png" />
+    <None Include="images\img_chat_offline.png" />
+    <None Include="images\img_status_available.png" />
+    <None Include="images\img_status_away.png" />
+    <None Include="images\img_status_busy.png" />
+    <None Include="images\img_status_donotdisturb.png" />
+    <None Include="images\img_status_offline.png" />
+    <Content Include="sounds\done.wav" />
+    <Content Include="sounds\newalert.wav" />
+    <Content Include="sounds\newmessage.wav" />
+    <Content Include="sounds\online.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

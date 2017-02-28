@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Statuses>
+  <Status Code="Available" Selectable="true" Description="Available" StatusImage="img_status_available" ChatImage="img_chat_available">
+  </Status>
+  <Status Code="Busy" Selectable="true" Description="Busy" StatusImage="img_status_busy" ChatImage="img_chat_busy">
+  </Status>
+  <Status Code="DoNotDisturb" Selectable="true" Description="Do Not Disturb" StatusImage="img_status_donotdisturb" ChatImage="img_chat_donotdisturb">
+  </Status>
+  <Status Code="Away" Selectable="true" Description="Away" StatusImage="img_status_away" ChatImage="img_chat_away">
+  </Status>
+  <Status Code="Offline" Selectable="true" Description="Appear Offline" StatusImage="img_status_offline" ChatImage="img_chat_offline">
+  </Status>
+</Statuses>

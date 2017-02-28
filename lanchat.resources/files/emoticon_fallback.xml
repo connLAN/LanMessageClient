@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Emoticons>
+  <Emoticon Description="Smile" Code="{\emot smile}" ImageKey="mnuSmileySmile">
+    <Text>:)</Text>
+  </Emoticon>
+  <Emoticon Description="Grin" Code="{\emot grin}" ImageKey="mnuSmileyGrin">
+    <Text>:D</Text>
+  </Emoticon>
+  <Emoticon Description="Sad" Code="{\emot sad}" ImageKey="mnuSmileySad">
+    <Text>:(</Text>
+  </Emoticon>
+  <Emoticon Description="Cool" Code="{\emot cool}" ImageKey="mnuSmileyCool">
+    <Text>B)</Text>
+    <Text>8)</Text>
+  </Emoticon>
+  <Emoticon Description="Angry" Code="{\emot angry}" ImageKey="mnuSmileyAngry">
+    <Text>:X</Text>
+    <Text>:x</Text>
+    <Text>:@</Text>
+  </Emoticon>
+  <Emoticon Description="Surprised" Code="{\emot surprised}" ImageKey="mnuSmileySurprised">
+    <Text>:O</Text>
+    <Text>:o</Text>
+  </Emoticon>
+  <Emoticon Description="Wink" Code="{\emot wink}" ImageKey="mnuSmileyWink">
+    <Text>;)</Text>
+  </Emoticon>
+  <Emoticon Description="Tongue" Code="{\emot tongue}" ImageKey="mnuSmileyFunny">
+    <Text>:P</Text>
+    <Text>:p</Text>
+  </Emoticon>
+  <Emoticon Description="Confused" Code="{\emot confused}" ImageKey="mnuSmileyConfused">
+    <Text>:S</Text>
+    <Text>:s</Text>
+  </Emoticon>
+</Emoticons>

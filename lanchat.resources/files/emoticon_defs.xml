@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Emoticons>
+  <Emoticon Code="emot smile" Description="Smile" ImageKey="img_emot2_smile">
+    <Text>:)</Text>
+  </Emoticon>
+  <Emoticon Code="emot grin" Description="Grin" ImageKey="img_emot2_grin">
+    <Text>:D</Text>
+  </Emoticon>
+  <Emoticon Code="emot wink" Description="Wink" ImageKey="img_emot2_wink">
+    <Text>;)</Text>
+  </Emoticon>
+  <Emoticon Code="emot surprised" Description="Surprised" ImageKey="img_emot2_surprised">
+    <Text>:O</Text>
+    <Text>:o</Text>
+  </Emoticon>
+  <Emoticon Code="emot tongue" Description="Tongue" ImageKey="img_emot2_tongue">
+    <Text>:P</Text>
+    <Text>:p</Text>
+  </Emoticon>
+  <Emoticon Code="emot cool" Description="Cool" ImageKey="img_emot2_cool">
+    <Text>B)</Text>
+    <Text>8)</Text>
+  </Emoticon>
+  <Emoticon Code="emot angry" Description="Angry" ImageKey="img_emot2_angry">
+    <Text>:X</Text>
+    <Text>:x</Text>
+    <Text>:@</Text>
+  </Emoticon>
+  <Emoticon Code="emot confused" Description="Confused" ImageKey="img_emot2_confused">
+    <Text>:S</Text>
+    <Text>:s</Text>
+  </Emoticon>
+  <Emoticon Code="emot embarrassed" Description="Embarrassed" ImageKey="img_emot2_embarrassed">
+  </Emoticon>
+  <Emoticon Code="emot sad" Description="Sad" ImageKey="img_emot2_sad">
+    <Text>:(</Text>
+  </Emoticon>
+  <Emoticon Code="emot cry" Description="Cry" ImageKey="img_emot2_cry">
+    <Text>:'(</Text>
+  </Emoticon>
+  <Emoticon Code="emot huh" Description="Huh" ImageKey="img_emot2_huh">
+  </Emoticon>
+  <Emoticon Code="emot angel" Description="Angel" ImageKey="img_emot2_halo">
+  </Emoticon>
+  <Emoticon Code="emot heart" Description="Heart" ImageKey="img_emot2_heart">
+  </Emoticon>
+  <Emoticon Code="emot brokenheart" Description="Broken Heart" ImageKey="img_emot2_brokenheart">
+  </Emoticon>
+  <Emoticon Code="emot beer" Description="Beer" ImageKey="img_emot2_beer">
+  </Emoticon>
+  <Emoticon Code="emot cat" Description="Cat" ImageKey="img_emot2_cat">
+  </Emoticon>
+  <Emoticon Code="emot dog" Description="Dog" ImageKey="img_emot2_dog">
+  </Emoticon>
+  <Emoticon Code="emot moon" Description="Moon" ImageKey="img_emot2_moon">
+  </Emoticon>
+  <Emoticon Code="emot star" Description="Star" ImageKey="img_emot2_star">
+  </Emoticon>
+  <Emoticon Code="emot hug" Description="Hug" ImageKey="img_emot2_hug">
+  </Emoticon>
+  <Emoticon Code="emot lips" Description="Lips" ImageKey="img_emot2_lips">
+  </Emoticon>
+  <Emoticon Code="emot rose" Description="Rose" ImageKey="img_emot2_rose">
+  </Emoticon>
+  <Emoticon Code="emot witheredrose" Description="Withered Rose" ImageKey="img_emot2_witheredrose">
+  </Emoticon>
+  <Emoticon Code="emot time" Description="Time" ImageKey="img_emot2_time">
+  </Emoticon>
+  <Emoticon Code="emot gift" Description="Gift" ImageKey="img_emot2_gift">
+  </Emoticon>
+  <Emoticon Code="emot cake" Description="Cake" ImageKey="img_emot2_cake">
+  </Emoticon>
+  <Emoticon Code="emot camera" Description="Camera" ImageKey="img_emot2_camera">
+  </Emoticon>
+  <Emoticon Code="emot bulb" Description="Bulb" ImageKey="img_emot2_bulb">
+  </Emoticon>
+  <Emoticon Code="emot coffee" Description="Coffee" ImageKey="img_emot2_coffee">
+  </Emoticon>
+  <Emoticon Code="emot call" Description="Call" ImageKey="img_emot2_call">
+  </Emoticon>
+  <Emoticon Code="emot movie" Description="Movie" ImageKey="img_emot2_movie">
+  </Emoticon>
+  <Emoticon Code="emot music" Description="Music" ImageKey="img_emot2_music">
+  </Emoticon>
+  <Emoticon Code="emot mail" Description="Mail" ImageKey="img_emot2_mail">
+  </Emoticon>
+  <Emoticon Code="emot thumbsup" Description="Thumbs Up" ImageKey="img_emot2_thumbsup">
+  </Emoticon>
+  <Emoticon Code="emot messenger" Description="Messenger" ImageKey="img_emot2_messenger">
+  </Emoticon>
+</Emoticons>
