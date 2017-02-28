@@ -1,5 +1,9 @@
+
+-----
+
 1.0.8.8
 =======
+
 Added panel that displays remote user's actions.
 Improved the way status messages are displayed in conversation area.
 Added option to turn emoticons on/off in chat window.
