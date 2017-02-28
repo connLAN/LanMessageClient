@@ -1,5 +1,7 @@
 [Dolphin]
 AdditionalInfoV2=Details_Size,Details_Date,Details_Type,CustomizedDetails
-Timestamp=2011,9,22,2,52,7
+SortOrder=1
+Sorting=2
+Timestamp=2011,12,19,21,19,26
 Version=2
 ViewMode=1
